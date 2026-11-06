@@ -76,13 +76,19 @@ td{
     color:#12355b;
     font-weight:bold;
 }
- 
+/*Hobbies*/
+/* Hobbies section */
+
 #hobbies {
     background-color: lightblue;
     color: #12355b;
     padding: 30px;
 }
 
+#hobbies li {
+    margin: 12px;
+}
+/*Footer*/
 footer{
     background-color:#12355b;
     color:white;
@@ -106,4 +112,44 @@ footer{
         width:180px;
         height:180px;
     }
+    /* Contact section */
+
+#contact {
+    background-color: #dceeff;
+    color: #12355b;
+    padding: 30px;
+}
+
+#contact form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#contact .copy-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#contact button {
+    background-color: green;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 }
